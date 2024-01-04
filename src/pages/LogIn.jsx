@@ -26,6 +26,7 @@ const LogIn = () => {
           password,
         }
       );
+      console.log("data", data);
       if (data.error) {
         return toast.error(data.error);
       }
